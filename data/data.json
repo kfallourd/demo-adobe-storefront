@@ -95,20 +95,6 @@
               ],
               "children":
               []
-            },
-            {
-              "name": "Costume et blazer",
-              "url": "homme/costume-et-blazer",
-              "id": "60",
-              "properties":
-              [
-                {
-                  "propname": "Display",
-                  "propvalue": "yes"
-                }
-              ],
-              "children":
-              []
             }
           ]
         },
