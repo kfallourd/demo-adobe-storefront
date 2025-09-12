@@ -24,7 +24,7 @@ main > .section .carousel-wrapper {
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     overflow: scroll clip;
-    height: 40vw;
+    height: 32vw;
 }
 
 .carousel .carousel-slides::-webkit-scrollbar {
@@ -57,7 +57,7 @@ main > .section .carousel-wrapper {
 }
 
 .carousel .carousel-slide .carousel-slide-image picture > img {
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
 }

@@ -5,7 +5,7 @@ mountpoints:
 
 folders:
   /products/: /products/default
-  /apparel: /categories/default
+  /sowebshop: /categories/default
   /office: /categories/default
   /lifestyle: /categories/default
   /bags: /categories/default
