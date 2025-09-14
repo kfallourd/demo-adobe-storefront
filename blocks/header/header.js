@@ -339,9 +339,9 @@ export default async function decorate(block) {
 
   const cartButton = navTools.querySelector('.nav-cart-button');
 
-  if (excludeMiniCartFromPaths.includes(window.location.pathname)) {
+  //if (excludeMiniCartFromPaths.includes(window.location.pathname)) {
     cartButton.style.display = 'none';
-  }
+  //}
 
   // load nav as fragment
   const miniCartMeta = getMetadata('mini-cart');
@@ -386,81 +386,6 @@ export default async function decorate(block) {
     if (!searchPanel.contains(e.target) && !searchButton.contains(e.target)) {
       toggleSearch(false);
     }
-  });
-
-  /* User log in */
-  const dropdownElement = document.createRange().createContextualFragment(`
-     <div class="dropdown-wrapper nav-tools-wrapper">
-        <button type="button" class="nav-dropdown-button" aria-haspopup="dialog" aria-expanded="false" aria-controls="login-modal"></button>
-        <div class="nav-auth-menu-panel nav-tools-panel">
-          <div id="auth-dropin-container"></div>
-          <ul class="authenticated-user-menu">
-             <li><a href="/customer/account">My Account</a></li>
-              <li><button>Logout</button></li>
-          </ul>
-        </div>
-     </div>`);
-
-  navTools.append(dropdownElement);
-
-  const authDropDownPanel = navTools.querySelector('.nav-auth-menu-panel');
-  const authDropinContainer = navTools.querySelector('#auth-dropin-container');
-  const loginButton = navTools.querySelector('.nav-dropdown-button');
-  const logoutButton = navTools.querySelector(
-    '.authenticated-user-menu > li > button',
-  );
-
-  // Initially hide the authDropDownMenuList
-  authDropDownPanel.style.display = 'none';
-
-  // Function to show the authDropDownMenuList
-  function showAuthMenu() {
-    authDropDownPanel.style.display = 'block';
-    authDropinContainer.style.display = 'none';
-  }
-
-  // Function to hide the authDropDownMenuList
-  function hideAuthMenu() {
-    authDropDownPanel.style.display = 'none';
-    authDropinContainer.style.display = 'block';
-  }
-
-  // Function to show the dropdown or modal based on authentication state
-  async function showDropDownAuthModal(state) {
-    const show = state ?? !authDropDownPanel.classList.contains('nav-tools-panel--show');
-
-    if (show && !loginButton.classList.contains('authenticated')) {
-      // Show modal for unauthenticated users
-      const signInForm = document.createElement('div');
-      authRenderer.render(AuthCombine, {
-        signInFormConfig: {
-          renderSignUpLink: true,
-          onSuccessCallback: () => {},
-        },
-        resetPasswordFormConfig: {},
-      })(signInForm);
-
-      showModal(signInForm);
-    } else if (loginButton.classList.contains('authenticated')) {
-      // Show dropdown for authenticated users
-      showAuthMenu();
-    }
-  }
-
-  loginButton.addEventListener('click', () => showDropDownAuthModal());
-
-  document.addEventListener('click', async (e) => {
-    const clickOnDropDownPanel = authDropDownPanel.contains(e.target);
-    const clickOnLoginButton = loginButton.contains(e.target);
-
-    if (!clickOnDropDownPanel && !clickOnLoginButton) {
-      hideAuthMenu();
-    }
-  });
-
-  logoutButton.addEventListener('click', async () => {
-    await authApi.revokeCustomerToken();
-    window.location.href = '/';
   });
 
   // hamburger for mobile
