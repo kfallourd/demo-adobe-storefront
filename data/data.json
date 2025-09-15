@@ -29,7 +29,7 @@
             {
               "name": "Polo",
               "url": "sowebshop/homme/polo",
-              "id": "67",
+              "id": "46",
               "properties":
               [
                 {
@@ -43,7 +43,7 @@
             {
               "name": "Sweat",
               "url": "sowebshop/homme/sweat",
-              "id": "68",
+              "id": "47",
               "properties":
               [
                 {
@@ -57,7 +57,7 @@
             {
               "name": "Veste, Bodywarmer, pull et cardigan",
               "url": "sowebshop/homme/veste-bodywarmer-pull-et-cardigan",
-              "id": "69",
+              "id": "48",
               "properties":
               [
                 {
@@ -71,7 +71,7 @@
             {
               "name": "Chemise, surchemise",
               "url": "sowebshop/homme/chemise-surchemise",
-              "id": "70",
+              "id": "49",
               "properties":
               [
                 {
@@ -85,7 +85,7 @@
             {
               "name": "Pantalon, pantacourt et short",
               "url": "sowebshop/homme/pantalon-pantacourt-et-short",
-              "id": "63",
+              "id": "50",
               "properties":
               [
                 {
@@ -100,14 +100,14 @@
         },
         {
           "name": "Femme",
-          "url": "femme",
-          "id": "54",
+          "url": "sowebshop/femme",
+          "id": "51",
           "children":
           [
             {
               "name": "T-shirt et débardeur",
               "url": "sowebshop/femme/t-shirt-et-debardeur",
-              "id": "73",
+              "id": "58",
               "properties":
               [
                 {
@@ -121,7 +121,7 @@
             {
               "name": "Polo",
               "url": "sowebshop/femme/polo",
-              "id": "74",
+              "id": "59",
               "properties":
               [
                 {
@@ -135,7 +135,7 @@
             {
               "name": "Sweat",
               "url": "sowebshop/femme/sweat",
-              "id": "75",
+              "id": "60",
               "properties":
               [
                 {
@@ -149,7 +149,7 @@
             {
               "name": "Veste, Bodywarmer, Pull et cardigan",
               "url": "sowebshop/femme/veste-bodywarmer-pull-et-cardigan",
-              "id": "58",
+              "id": "61",
               "properties":
               [
                 {
@@ -163,7 +163,7 @@
             {
               "name": "Chemise, chemisier et blouse",
               "url": "sowebshop/femme/chemise-chemisier-et-blouse",
-              "id": "76",
+              "id": "62",
               "properties":
               [
                 {
@@ -179,7 +179,7 @@
         {
           "name": "Enfant & Bébé",
           "url": "sowebshop/enfants-bebes",
-          "id": "53",
+          "id": "52",
           "properties":
           [
             {
@@ -192,7 +192,7 @@
             {
               "name": "T-shirt, polo, chemise",
               "url": "sowebshop/enfants-bebes/t-shirt-polo-chemise",
-              "id": "77",
+              "id": "63",
               "properties":
               [
                 {
@@ -206,7 +206,7 @@
             {
               "name": "Sweat, veste & bodywarmer",
               "url": "sowebshop/enfants-bebes/sweat-veste-bodywarmer",
-              "id": "78",
+              "id": "64",
               "properties":
               [
                 {
@@ -220,7 +220,7 @@
             {
               "name": "Sport & loisir",
               "url": "sowebshop/enfants-bebes/sport-loisir",
-              "id": "79",
+              "id": "65",
               "properties":
               [
                 {
@@ -234,7 +234,7 @@
             {
               "name": "Pyjama, body et chaussures",
               "url": "sowebshop/enfants-bebes/pyjama-body-et-chaussures",
-              "id": "80",
+              "id": "66",
               "properties":
               [
                 {
@@ -248,7 +248,7 @@
             {
               "name": "Headwear",
               "url": "sowebshop/enfants-bebes/headwear",
-              "id": "81",
+              "id": "67",
               "properties":
               [
                 {
@@ -264,7 +264,7 @@
         {
           "name": "Bio",
           "url": "sowebshop/bio",
-          "id": "57",
+          "id": "53",
           "properties":
           [
             {
@@ -277,7 +277,7 @@
             {
               "name": "T-shirt",
               "url": "sowebshop/bio/t-shirt",
-              "id": "61",
+              "id": "68",
               "properties":
               [
                 {
@@ -291,7 +291,7 @@
             {
               "name": "Débardeur",
               "url": "sowebshop/bio/debardeur",
-              "id": "83",
+              "id": "69",
               "properties":
               [
                 {
@@ -307,7 +307,7 @@
         {
           "name": "Sport",
           "url": "sowebshop/sport",
-          "id": "52",
+          "id": "54",
           "properties":
           [
             {
@@ -320,7 +320,7 @@
             {
               "name": "Sports d'équipes",
               "url": "sowebshop/sport/sports-d-equipes",
-              "id": "84",
+              "id": "70",
               "properties":
               [
                 {
@@ -334,7 +334,7 @@
             {
               "name": "Sports individuels",
               "url": "sowebshop/sport/sports-individuels",
-              "id": "85",
+              "id": "71",
               "properties":
               [
                 {
@@ -348,7 +348,7 @@
             {
               "name": "Multi-sports",
               "url": "sowebshop/sport/multi-sports",
-              "id": "86",
+              "id": "72",
               "properties":
               [
                 {
@@ -362,7 +362,7 @@
             {
               "name": "Equipement d'entrainement et de terrain",
               "url": "sowebshop/sport/equipement-d-entrainement-et-de-terrain",
-              "id": "59",
+              "id": "73",
               "properties":
               [
                 {
@@ -378,7 +378,7 @@
         {
           "name": "Métiers",
           "url": "sowebshop/activites-professionnelles",
-          "id": "52",
+          "id": "55",
           "properties":
           [
             {
@@ -391,7 +391,7 @@
             {
               "name": "Workwear, Sécurité",
               "url": "sowebshop/activites-professionnelles/workwear-securite",
-              "id": "84",
+              "id": "74",
               "properties":
               [
                 {
@@ -404,8 +404,8 @@
             },
             {
               "name": "Personnel de bureau et d’accueil",
-              "url": "sowebshop/activites-professionnelles/personnel-de-bureau-d-accueil-et-de-service",
-              "id": "85",
+              "url": "sowebshop/activites-professionnelles/personnel-de-bureau-et-d-accueil",
+              "id": "75",
               "properties":
               [
                 {
@@ -421,7 +421,7 @@
         {
           "name": "Accessoires",
           "url": "sowebshop/accessoires",
-          "id": "52",
+          "id": "56",
           "properties":
           [
             {
@@ -434,7 +434,7 @@
             {
               "name": "Accessoires vêtements",
               "url": "sowebshop/accessoires/accessoires-vetements",
-              "id": "84",
+              "id": "76",
               "properties":
               [
                 {
@@ -447,8 +447,8 @@
             },
             {
               "name": "Masques",
-              "url": "sowebshop/accessoires/masks",
-              "id": "85",
+              "url": "sowebshop/accessoires/masques",
+              "id": "77",
               "properties":
               [
                 {
@@ -463,8 +463,8 @@
         },
         {
           "name": "Nouveautés",
-          "url": "sowebshop/news",
-          "id": "52",
+          "url": "sowebshop/nouveautes",
+          "id": "57",
           "properties":
           [
             {
