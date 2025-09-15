@@ -166,7 +166,7 @@
 }
 
 .product-details-wrapper .product-details__buttons__add-to-cart {
-    display: block;
+    display: none;
 }
 
 .product-details-wrapper .dropin-button--primary {
