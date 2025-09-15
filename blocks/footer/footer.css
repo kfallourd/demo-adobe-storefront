@@ -1,3 +1,6 @@
+main .section .default-content-wrapper {
+    text-align: center;
+}
 .footer-wrapper .default-content-wrapper {
     max-width: var(--footer-max-width);
     width: 100%;
